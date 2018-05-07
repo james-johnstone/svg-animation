@@ -1,0 +1,31 @@
+{
+  "name": "ecological-animation",
+  "version": "1.0.1",
+  "description": "name says it all",
+  "keywords": [
+    "svg",
+    "vector",
+    "graphics",
+    "animation"
+  ],
+  "author": "James Johnstone <jcjohnstone8@gmail.com>",
+  "main": "index.html",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-johnstone/svg-animation.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "eslint": "^4.19.1",
+    "eslint-config-recommended": "^2.0.0"
+  },
+  "dependencies": {
+    "svg.js":"2.6.4"
+  }
+}
