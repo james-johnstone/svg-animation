@@ -21,11 +21,7 @@
     "url": "https://github.com/james-johnstone/svg-animation.git"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "eslint": "^4.19.1",
-    "eslint-config-recommended": "^2.0.0"
   },
   "dependencies": {
-    "svg.js":"2.6.4"
   }
 }
