@@ -10,8 +10,26 @@
 </head>
 
 <body>
+
+    <object id="sun-ecological-power" data="img/sun-ecological-power.svg" type="image/svg+xml"></object>
+
   <script src="bower_components/svg.js/dist/svg.js"></script>
   <script src="program.js"></script>
+  <script>
+    (() => {
+        let ecologicalState = new EcologicalState();
+        let ecologicalSVGs = ['sun-ecological-power'];
+
+        ecologicalSVGs.forEach((el,i) => {
+                document.getElementById(el).addEventListener('load', (event) => {
+                    
+                    // todo : update state method, animation loop, dom input for scale
+                    //ecologicalState.addAnimatable();
+
+                }, true);
+        });
+    })();
+</script>
 </body>
 
 </html>

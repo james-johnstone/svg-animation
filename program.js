@@ -1,11 +1,21 @@
 'use strict';
 
-class ecologicalObject {
+class EcologicalState {
+    constructor(){
+        this.animatables = [];
+    }
+
+    addEcologicalObject(animatable){
+        this.animatables.push(animatable);
+    }
+}
+
+class EcologicalObject {
 
 
 }
 
-class animatable {
+class Animatable {
 
     constructor(svg, primaryColour, secondaryColour){
         this.svg = svg;
